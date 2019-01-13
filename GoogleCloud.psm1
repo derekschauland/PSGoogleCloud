@@ -12,8 +12,4 @@
 
 
 
-function Write-HelloWorld
-{
-	Write-Host "Hello World"
-}
-
+#Nothing here keeper movvin''
