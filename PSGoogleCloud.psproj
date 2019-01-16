@@ -1,0 +1,14 @@
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt" AutoExportFunctions="True" AutoExportPS1XMLFiles="True">
+  <Version>2.1</Version>
+  <FileID>332652f3-1d2b-461a-aaf8-f20c2d3959bd</FileID>
+  <ProjectType>1</ProjectType>
+  <Folders />
+  <Files>
+    <File Build="2">PSGoogleCloud.psd1</File>
+    <File Build="0" ExportFunctions="True">PSGoogleCloud.psm1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-JMGPCStorageLogging_ps1" ExportFunctions="False">Get-JMGPCStorageLogging.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Set-JMGCPStorageLogging_ps1" ExportFunctions="False">Set-JMGCPStorageLogging.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Disable-GCPDefaultFirewallRule_ps1" ExportFunctions="False">Disable-GCPDefaultFirewallRule.ps1</File>
+  </Files>
+  <StartupScript>C:\PowerShell Projects\JMGCPStorageLogging\Test-Module.ps1</StartupScript>
+</Project>

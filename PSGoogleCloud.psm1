@@ -1,15 +1,16 @@
 ﻿<#	
 	===========================================================================
 	 Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2019 v5.6.156
-	 Created on:   	1/13/2019 4:52 PM
-	 Created by:   	 Derek
-	 Organization: 	 
-	 Filename:     	GoogleCloud.psm1
+	 Created on:   	1/10/2019 10:50 AM
+	 Created by:   	dschauland
+	 Organization: 	
+	 Filename:     	PSGoogleCloud.psm1
 	-------------------------------------------------------------------------
-	 Module Name: GoogleCloud
+	 Module Name: PSGoogleCloud
 	===========================================================================
 #>
 
+#Here lies an empty file - there is nothing here 
 
-
-#Nothing here keeper movvin''
+Export-ModuleMember -Function Get-JMGCPStorageLog
+Export-ModuleMember -Function Set-PSGoogleCloud

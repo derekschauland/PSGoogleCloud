@@ -1,0 +1,12 @@
+﻿<ProjectState>
+  <Version>1.0</Version>
+  <FileID>332652f3-1d2b-461a-aaf8-f20c2d3959bd</FileID>
+  <OpenFolders />
+  <OpenFiles>
+    <File>Test-Module.ps1</File>
+    <File>JMGCPStorageLogging.psd1</File>
+    <File>JMGCPStorageLogging.psm1</File>
+    <File>Get-JMGPCStorageLogging.ps1</File>
+    <File>Set-JMGCPStorageLogging.ps1</File>
+  </OpenFiles>
+</ProjectState>

@@ -1,14 +1,14 @@
 ﻿<#	
 	===========================================================================
 	 Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2019 v5.6.156
-	 Created on:   	1/13/2019 4:52 PM
-	 Created by:   	 Derek
-	 Organization: 	 
-	 Filename:     	GoogleCloud.psd1
+	 Created on:   	1/10/2019 10:50 AM
+	 Created by:   	dschauland
+	 Organization: 	
+	 Filename:     	PSGoogleCloud.psd1
 	 -------------------------------------------------------------------------
 	 Module Manifest
 	-------------------------------------------------------------------------
-	 Module Name: GoogleCloud
+	 Module Name: PSGoogleCloud
 	===========================================================================
 #>
 
@@ -16,19 +16,19 @@
 @{
 	
 	# Script module or binary module file associated with this manifest
-	ModuleToProcess = 'GoogleCloud.psm1'
+	ModuleToProcess = 'PSGoogleCloud.psm1'
 	
 	# Version number of this module.
 	ModuleVersion = '1.0.0.0'
 	
 	# ID used to uniquely identify this module
-	GUID = '092de22d-720b-46d6-a760-6ed3b08f0d14'
+	GUID = '332652f3-1d2b-461a-aaf8-f20c2d3959bd'
 	
 	# Author of this module
-	Author = ' Derek'
+	Author = 'dschauland'
 	
 	# Company or vendor of this module
-	CompanyName = ' '
+	CompanyName = ''
 	
 	# Copyright statement for this module
 	Copyright = '(c) 2019. All rights reserved.'
@@ -73,13 +73,13 @@
 	
 	# Modules to import as nested modules of the module specified in
 	# ModuleToProcess
-	NestedModules = @()
+	NestedModules = @('Set-PSGoogleCloud.ps1', 'Get-JMGPCStorageLogging.ps1')
 	
 	# Functions to export from this module
-	FunctionsToExport = '*' #For performance, list functions explicitly
+	FunctionsToExport = @() #For performance, list functions explicitly
 	
 	# Cmdlets to export from this module
-	CmdletsToExport = '*' 
+	CmdletsToExport = '' 
 	
 	# Variables to export from this module
 	VariablesToExport = '*'
